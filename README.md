@@ -75,7 +75,32 @@ Build a machine learning classification model to predict passenger survival.
 - GitHub
 
 ---
+# Week 2 - Task 2
 
+## House Price Prediction with Linear Regression
+
+### Objective
+Build a Linear Regression model to predict house prices.
+
+### Features Used
+- MedInc
+- AveRooms
+- HouseAge
+- AveOccup
+- Latitude
+
+### Steps
+- Loaded the California Housing dataset
+- Selected important features
+- Split data into training and testing sets
+- Trained a Linear Regression model
+- Evaluated using RMSE and R² Score
+- Visualized Predicted vs Actual prices using a scatter plot
+
+### Results
+- RMSE: (Update after running)
+- R² Score: (Update after running)
+  
 ## Repository
 
 This repository will be updated every week as I continue completing the Neurofive ML Track.
