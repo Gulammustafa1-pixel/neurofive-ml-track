@@ -144,6 +144,36 @@ Improve the Titanic Survival Prediction model by evaluating it with advanced met
 ### Key Learning
 
 This task helped me understand that evaluating a machine learning model requires more than just checking its accuracy. Metrics such as Precision, Recall, and F1-Score provide deeper insight into model performance, while GridSearchCV helps automatically find better hyperparameter values to build a more reliable model.
+
+# Week 3 – Task 2: Customer Churn Prediction
+
+## Objective
+
+Build machine learning models to predict customer churn and identify the key factors influencing customer retention.
+
+### Work Completed
+
+- Loaded the Telco Customer Churn dataset
+- Performed Exploratory Data Analysis (EDA)
+- Cleaned missing values
+- Encoded categorical variables using LabelEncoder
+- Trained two machine learning models:
+  - Logistic Regression
+  - Decision Tree Classifier
+- Compared both models using Accuracy and Classification Report
+- Identified the top 3 important features using Decision Tree feature importance
+- Wrote a business summary based on the model results
+
+### Results
+
+| Model | Accuracy |
+|--------|----------|
+| Logistic Regression | **81.69%** |
+| Decision Tree | **72.53%** |
+
+### Key Learning
+
+This task demonstrated how different machine learning models perform on the same business problem. Logistic Regression produced better predictive performance than the Decision Tree on this dataset, while the Decision Tree helped identify the most influential features affecting customer churn.
   
 ## Repository
 
