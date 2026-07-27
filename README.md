@@ -100,6 +100,50 @@ Build a Linear Regression model to predict house prices.
 ### Results
 - RMSE: (Update after running)
 - R² Score: (Update after running)
+
+  # Week 3 – Machine Learning Fundamentals
+
+## Task 1: Model Evaluation & Hyperparameter Tuning
+
+### Objective
+
+Improve the Titanic Survival Prediction model by evaluating it with advanced metrics and optimizing its performance using hyperparameter tuning.
+
+### Work Completed
+
+- Revisited the Logistic Regression model built in Week 2.
+- Evaluated the model using:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-Score
+  - Confusion Matrix
+- Learned why accuracy alone can be misleading for imbalanced datasets.
+- Applied **GridSearchCV** to optimize the Logistic Regression model.
+- Tuned the following hyperparameters:
+  - **C**
+  - **solver**
+- Compared the original model with the tuned model.
+
+### Best Hyperparameters
+
+- **C:** 1
+- **Solver:** liblinear
+
+### Cross Validation Score
+
+**79.63%**
+
+### Model Comparison
+
+| Model | Accuracy |
+|--------|----------|
+| Original Logistic Regression | 81.01% |
+| Tuned Logistic Regression | 81.01% |
+
+### Key Learning
+
+This task helped me understand that evaluating a machine learning model requires more than just checking its accuracy. Metrics such as Precision, Recall, and F1-Score provide deeper insight into model performance, while GridSearchCV helps automatically find better hyperparameter values to build a more reliable model.
   
 ## Repository
 
