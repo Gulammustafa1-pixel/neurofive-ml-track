@@ -174,7 +174,43 @@ Build machine learning models to predict customer churn and identify the key fac
 ### Key Learning
 
 This task demonstrated how different machine learning models perform on the same business problem. Logistic Regression produced better predictive performance than the Decision Tree on this dataset, while the Decision Tree helped identify the most influential features affecting customer churn.
-  
+
+  # Week 4 – Task 1: Build a Proper ML Pipeline with Feature Engineering
+
+## Objective
+Build a reusable Machine Learning Pipeline using scikit-learn.
+
+## Dataset
+Titanic Dataset
+
+## Tasks Completed
+- Loaded the Titanic dataset
+- Created two engineered features:
+  - FamilySize
+  - IsAlone
+- Applied StandardScaler to numerical columns
+- Applied OneHotEncoder to categorical columns
+- Used ColumnTransformer for preprocessing
+- Combined preprocessing and Logistic Regression into a single Pipeline
+- Evaluated the model
+- Saved the trained pipeline using Joblib
+
+## Results
+
+| Model | Accuracy |
+|--------|----------|
+| Logistic Regression Pipeline | **79.89%** |
+
+## Saved Model
+
+titanic_pipeline.pkl
+
+## Libraries Used
+
+- Pandas
+- Scikit-learn
+- Joblib
+
 ## Repository
 
 This repository will be updated every week as I continue completing the Neurofive ML Track.
