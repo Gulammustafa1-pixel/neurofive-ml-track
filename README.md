@@ -211,6 +211,42 @@ titanic_pipeline.pkl
 - Scikit-learn
 - Joblib
 
+# Week 4 – Task 2: Ensemble Learning
+
+## Models Trained
+
+- Logistic Regression
+- Random Forest
+- XGBoost
+
+## Dataset
+
+Titanic Dataset
+
+## Feature Engineering
+
+- FamilySize
+- IsAlone
+
+## Comparison
+
+| Model | Accuracy |
+|--------|----------|
+| Logistic Regression | 79.89% |
+| Random Forest | (Update after running) |
+| XGBoost | (Update after running) |
+
+## Libraries
+
+- Pandas
+- Scikit-learn
+- XGBoost
+- Matplotlib
+
+## Key Learning
+
+Random Forest uses bagging, while XGBoost uses boosting. Both are ensemble learning methods, but XGBoost typically achieves better predictive performance by correcting previous errors iteratively.
+
 ## Repository
 
 This repository will be updated every week as I continue completing the Neurofive ML Track.
