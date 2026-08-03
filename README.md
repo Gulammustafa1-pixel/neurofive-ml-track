@@ -175,6 +175,7 @@ Build machine learning models to predict customer churn and identify the key fac
 
 This task demonstrated how different machine learning models perform on the same business problem. Logistic Regression produced better predictive performance than the Decision Tree on this dataset, while the Decision Tree helped identify the most influential features affecting customer churn.
 
+
   # Week 4 – Task 1: Build a Proper ML Pipeline with Feature Engineering
 
 ## Objective
@@ -246,6 +247,32 @@ Titanic Dataset
 ## Key Learning
 
 Random Forest uses bagging, while XGBoost uses boosting. Both are ensemble learning methods, but XGBoost typically achieves better predictive performance by correcting previous errors iteratively.
+
+# Week 5 – Task 1: Handling Imbalanced & Messy Real-World Data
+
+## Dataset
+Credit Card Fraud Detection
+
+## Objective
+Learn how to handle highly imbalanced datasets using SMOTE.
+
+## Work Completed
+- Loaded the Credit Card Fraud Detection dataset
+- Checked class distribution
+- Visualized the imbalance using a bar chart
+- Trained Logistic Regression before balancing
+- Applied SMOTE to balance the training data
+- Retrained the model
+- Compared Precision, Recall, and F1-score before and after SMOTE
+
+## Libraries Used
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Imbalanced-learn
+
+## Conclusion
+Accuracy alone is not enough for imbalanced datasets. Precision, Recall, and F1-score provide a much better evaluation of fraud detection performance. SMOTE improves the model by creating synthetic samples for the minority class, helping the classifier detect fraudulent transactions more effectively.
 
 ## Repository
 
