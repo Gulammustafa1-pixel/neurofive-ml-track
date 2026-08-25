@@ -274,6 +274,70 @@ Learn how to handle highly imbalanced datasets using SMOTE.
 ## Conclusion
 Accuracy alone is not enough for imbalanced datasets. Precision, Recall, and F1-score provide a much better evaluation of fraud detection performance. SMOTE improves the model by creating synthetic samples for the minority class, helping the classifier detect fraudulent transactions more effectively.
 
+# 🚀 Week 5 – Task 2 | Deploy Your Model as a Live Web App
+
+## 🧠 NeuroFive Machine Learning Track
+
+This project is part of my **NeuroFive Machine Learning Track – Week 5 Task 2**.
+
+The goal of this task was to take a trained Machine Learning model and turn it into a **live, interactive web application** that users can access and make predictions through.
+
+---
+
+## 🌐 Live Web App
+
+### 🚀 Try the Model Live
+
+👉 **https://gulammustafa.streamlit.app/**
+
+The application is deployed using **Streamlit Community Cloud** and can be accessed directly from a web browser.
+
+---
+
+## 🎯 Task Objectives
+
+The main objectives of this task were:
+
+- ✅ Select the best-performing Machine Learning model from previous tasks
+- ✅ Save the trained model using `joblib`
+- ✅ Build an interactive Streamlit web application
+- ✅ Add input fields for the model's key features
+- ✅ Add a **Predict** button
+- ✅ Load the saved model inside the application
+- ✅ Display predictions to the user
+- ✅ Deploy the application online
+- ✅ Make the model accessible through a live URL
+
+---
+
+## 🛠️ Technologies Used
+
+- 🐍 Python
+- 🤖 Scikit-learn
+- 📦 Joblib
+- 🎈 Streamlit
+- ☁️ Streamlit Community Cloud
+- 📊 Pandas
+- 🔢 NumPy
+
+---
+
+## ⚙️ How the App Works
+
+The application follows a simple Machine Learning deployment pipeline:
+
+```text
+User Input
+    ↓
+Streamlit Web Interface
+    ↓
+Preprocessing
+    ↓
+Saved Machine Learning Model
+    ↓
+Prediction
+    ↓
+Result Displayed to User
 ## Repository
 
 This repository will be updated every week as I continue completing the Neurofive ML Track.
